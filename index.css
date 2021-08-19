@@ -45,5 +45,22 @@ p{
     font-size: 2rem;
 }
 
+#next_button {
+    margin-top: 1rem;
+    animation: fadeIn linear 1s;
+}
+
+img{
+    margin-top: 1rem;
+    animation: fadeIn linear 1s;
+    width: 250px;
+    box-shadow: 10px 10px 5px grey;
+}
+
+img:hover{
+    transform: rotate(5deg);
+}
+
+
 
 
