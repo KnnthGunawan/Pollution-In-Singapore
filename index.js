@@ -12,6 +12,10 @@ function toggleText() {
 }
 
 function toggleText2() {
-    var text4 = document.getElementById("picture");
+    var text4 = document.getElementById("singapore-text");
     text4.style.display = "block";
+    setTimeout(function(){
+        var text5 = document.getElementById("9.09");
+        text5.style.display = "block";
+    }, 1500)
 }
