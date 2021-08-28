@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
+
 .fade-in {
     animation: fadeIn linear 2s;
 }
@@ -49,6 +50,7 @@ p, h2{
     margin-top: 1rem;
     animation: fadeIn linear 1s;
 }
+
 
 
 
