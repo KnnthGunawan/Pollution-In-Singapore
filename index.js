@@ -36,7 +36,7 @@ function drawBasic() {
 
     var data = new google.visualization.DataTable();
     data.addColumn('string', 'X');
-    data.addColumn('number', 'Value');
+    data.addColumn('number', 'C02 Emissions');
 
     data.addRows([
         ["2009", 177], ["2010", 185],  ["2011", 193],  ["2012", 192],  ["2013", 191],  ["2014", 191],
@@ -45,8 +45,8 @@ function drawBasic() {
 
     var options = {
         title: "Singapore's C02 Emissions from Fossil-fuels",
-        width: 900,
-        height: 450,
+        width: window.innerWidth,
+        height: (window.innerWidth/2),
         hAxis: {
           title: 'Year'
         },
