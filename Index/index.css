@@ -51,9 +51,16 @@ p, h2{
     animation: fadeIn linear 1s;
 }
 
-.chartContainer {
+#next_button_2 {
+    margin-top: 1rem;
     animation: fadeIn linear 1s;
 }
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
 
 
 
