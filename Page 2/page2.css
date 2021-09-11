@@ -11,3 +11,7 @@ h1{
 h3{
     font-size: 1.5rem;
 }
+
+#chartContainer{
+    margin-top: 1.5rem;
+}

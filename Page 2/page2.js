@@ -1,11 +1,24 @@
 
-
-function Chart () {
+window.onload = function Chart () {
     var chart = new CanvasJS.Chart("chartContainer",
     {
-
+      axisX:{
+        title: "Year",
+        fontFamily: "montserrat",
+        horizontalAlignment: "center",
+        margin: 2
+      },
+      axisY:{
+        title: "C02 Emissions (millions tonnes)",
+        fontFamily: "montserrat",
+        horizontalAlignment: "center",
+        margin: 2
+      },
       title:{
-      text: "Singapore C02 Emissions From Fossil Fuels"
+        text: "Singapore C02 Emissions From Fossil Fuels",
+        fontFamily: "montserrat",
+        horizontalAlignment: "center",
+        margin: 2
       },
        data: [
       {
@@ -41,4 +54,5 @@ function Chart () {
 
     chart.render();
   }
+
   
