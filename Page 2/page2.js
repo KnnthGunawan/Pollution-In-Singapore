@@ -58,4 +58,35 @@ window.onload = function Chart () {
     chart.render();
   }
 
-  
+function choice_1() {
+    var one = document.getElementById("1");
+    one.style.display = "block";
+    var two = document.getElementById("2");
+    two.style.display = "none"
+    var three = document.getElementById("3");
+    three.style.display = "none"
+    var four = document.getElementById("move_on_button");
+    four.style.display = "none"
+}
+
+function choice_2() {
+  var one = document.getElementById("1");
+  one.style.display = "none";
+  var two = document.getElementById("2");
+  two.style.display = "block"
+  var three = document.getElementById("3");
+  three.style.display = "none"
+  var four = document.getElementById("move_on_button");
+  four.style.display = "none"
+}
+
+function choice_3() {
+  var one = document.getElementById("1");
+  one.style.display = "none";
+  var two = document.getElementById("2");
+  two.style.display = "none"
+  var three = document.getElementById("3");
+  three.style.display = "block"
+  var four = document.getElementById("move_on_button");
+  four.style.display = "block"
+}

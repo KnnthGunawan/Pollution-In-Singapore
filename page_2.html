@@ -11,11 +11,13 @@
 <body>
     <div id="chartContainer" style="height: 450px; width: 100%; max-width: 100%;"></div>
     <h2 style="text-align: center;">How much C02 did Singapore produce in 2020 (in million tonnes)?</h2><div class="button_class">
-        <button style="display: inline">180</button>
-        <button style="display: inline">191</button>
-        <button style="display: inline">211</button>
+        <button style="display: inline" onclick="choice_1()">185</button>
+        <button style="display: inline" onclick="choice_2()">127</button>
+        <button style="display: inline" onclick="choice_3()">211</button>
+        <p style="display: none;" id="1">Not quite. The last time Singapore was at 185 million tonnes was in 2010.</p>
+        <p style="display: none;" id="2">Close, but Singapore was at 127 million tonnes in 2005.</p>
+        <p style="display: none;" id="3">That's correct! Singapore produced 211,000,000 tonnes of C02 from fossil fuels in 2020.</p>
     </div>
-
 
     <script src="Page 2/page2.js"></script>
 </body>
