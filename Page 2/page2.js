@@ -21,7 +21,7 @@ window.onload = function Chart () {
         fontFamily: "montserrat",
         fontSize: 25,
         horizontalAlignment: "left",
-        margin: 2
+        margin: 10
       },
        data: [
       {
@@ -87,6 +87,36 @@ function choice_3() {
   two.style.display = "none"
   var three = document.getElementById("3");
   three.style.display = "block"
-  var four = document.getElementById("move_on_button");
-  four.style.display = "block"
+  setTimeout(function(){
+    var four = document.getElementById("4");
+    four.style.display = "block";
+  }, 1000)
+}
+
+window.onload = function () {
+	var chart = new CanvasJS.Chart("chartContainer",
+	{
+		title:{
+			text: "Singapore Emissions Profile (2018)",
+      fontFamily: "montserrat"
+		},
+		legend: {
+			maxWidth: 350,
+			itemWidth: 120
+		},
+		data: [
+		{
+			type: "pie",
+			showInLegend: true,
+			legendText: "{indexLabel}",
+			dataPoints: [
+				{ y: 38.9, indexLabel: "Power" },
+				{ y: 46.7, indexLabel: "Industry" },
+				{ y: 12.4, indexLabel: "Transport" },
+				{ y: 1.8, indexLabel: "Others"}
+			]
+		}
+		]
+	});
+	chart.render();
 }
