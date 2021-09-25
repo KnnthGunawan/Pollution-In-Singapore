@@ -50,4 +50,7 @@ button:hover {
     margin-left: 1rem;
 }
 
+.five{
+    animation: fadeIn linear 1s;
+}
 
