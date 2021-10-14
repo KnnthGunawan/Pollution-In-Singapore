@@ -119,12 +119,8 @@ function choice_3() {
     four.style.display = "block";
   }, 1000)
   setTimeout(function(){
-    var five = document.getElementById("5");
+    var five = document.getElementById("next_button");
     five.style.display = "block"
   }, 2000)
-  setTimeout(function(){
-    var six = document.getElementById("6");
-    six.style.display = "block"
-  }, 2100)
 }
 
