@@ -1,6 +1,6 @@
 window.onload = function () {
     
-    var chart = new CanvasJS.Chart("chartContainer2",
+    var chart = new CanvasJS.Chart("chartContainer",
         {
           title:{
             //text: "Singapore Emissions Profile (2018)",
