@@ -27,3 +27,12 @@ window.onload = function () {
     
     chart.render()
     }
+
+function toggleText() {
+    var text = document.getElementById("1");
+    text.style.display = "block";
+    setTimeout(function(){
+        var text2 = document.getElementById("2");
+        text2.style.display = "block";
+    }, 3000);
+}
