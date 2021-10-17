@@ -3,7 +3,7 @@ window.onload = function () {
     var chart = new CanvasJS.Chart("chartContainer",
         {
           title:{
-            //text: "Singapore Emissions Profile (2018)",
+            text: "Singapore Emissions Profile (2018)",
             fontFamily: "montserrat"
           },
           legend: {
