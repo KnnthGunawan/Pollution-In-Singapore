@@ -50,18 +50,6 @@ button:hover {
     margin-left: 1rem;
 }
 
-.left{
-    display: inline;
-    float: left;
-    width: 50%;
-}
-
-.right{
-    display: inline;
-    float: right;
-    width: 50%;
-}
-
 a{
     text-decoration: none;
     color: white;

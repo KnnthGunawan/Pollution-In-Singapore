@@ -29,14 +29,16 @@ window.onload = function () {
     }
 
 function toggleText() {
+  var text = document.getElementById("button");
+  text.style.display = "none";
   var text1 = document.getElementById("1");
   text1.style.display = "block";
   setTimeout(function(){
     var text2 = document.getElementById("2");
     text2.style.display = "block";
-  }, 3000);
+  }, 1500);
   setTimeout(function(){
-    var text3 = document.getElementById("next_button");
+    var text3 = document.getElementById("link");
     text3.style.display = "block";
-  }, 6000);
+  }, 2500);
 }
