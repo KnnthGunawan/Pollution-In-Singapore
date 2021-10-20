@@ -1,20 +1,27 @@
 function toggleText() {
-    var text = document.getElementById("pollution-text");
-    text.style.display = "block";
+    var text = document.getElementById("pollution-text").style.display="block";
     setTimeout(function(){
-        var div1 = document.getElementById("1");
-        div1.style.display = "block";
+        document.getElementById("1").style.display="block";
     }, 1000);
+}
+
+function function1(){
+    document.getElementById("button1").style.display="none";
+    document.getElementById("text1").style.display="block";
+    document.getElementById("2").style.display="block";
+}
+
+function function2(){
+    document.getElementById("button2").style.display="none";
+    document.getElementById("text2").style.display="block";
+    document.getElementById("3").style.display="block";
+}
+
+function function3(){
+    document.getElementById("button3").style.display="none";
+    document.getElementById("text3").style.display="block";
     setTimeout(function(){
-        var div2 = document.getElementById("2");
-        div2.style.display = "block";
-    }, 3000);
-    setTimeout(function(){
-        var div3 = document.getElementById("3");
-        div3.style.display = "block";
-    }, 5000);
-    setTimeout(function(){
-        var div4 = document.getElementById("4");
-        div4.style.display = "block";
-    }, 8000);
+        document.getElementById("4").style.display="inline-block";
+    }, 1000);
+
 }

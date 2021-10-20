@@ -37,52 +37,53 @@ a {
 }
 
 .div_right{
-    width: 80%;
-    margin-right: 1em;
+    animation: fadeIn linear 1s;
+    width: 60%;
+    border-right: 3em;
+    border-color: #4CAF50;
+    padding: 1rem;
     float: right;
+    border-style: solid;
+    border-width: 3px;
 }
 
 .div_left{
-    width: 80%;
-    margin-left: 1em;
+    animation: fadeIn linear 1s;
+    width: 60%;
+    margin: 2em;
+    border-left: 3em;
+    border-color: #4CAF50;
+    padding: 1rem;
     float: left;
+    border-style: solid;
+    border-width: 3px;
 }
 
-
-/*Quote Stuff*/
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
-.otro-blockquote{
-  font-size: 1.4em;
-  width:60%;
-  margin:50px auto;
-  font-family:Open Sans;
-  font-style:italic;
-  color: #555555;
-  padding:1.2em 30px 1.2em 75px;
-  border-left:8px solid #4CAF50;
-  line-height:1.6;
-  position: relative;
-  background:#EDEDED;
+.link{
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #4CAF50;
+    margin-top: -1em;
+    animation: fadeIn linear 1s;
 }
 
-.otro-blockquote::before{
-  font-family:Arial;
-  content: "\201C";
-  color:#4CAF50;
-  font-size:4em;
-  position: absolute;
-  left: 10px;
-  top:-10px;
+button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    align-items: center;
+    animation: fadeIn linear 1s;
 }
 
-.otro-blockquote::after{
-  content: '';
-}
-
-.otro-blockquote span{
-  display:block;
-  color:#333333;
-  font-style: normal;
-  font-weight: bold;
-  margin-top:1em;
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
