@@ -5,23 +5,44 @@ body {
 }
 
 body{
-    background-color: #4CAF50;
-    color: white;
+    text-align: center;
 }
 
 .Title{
-    text-align: center;
-    font-size: 2rem;
+    background: url(../images/title_bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    padding: 1rem 0;
+    font-size: 100%;    
 }
 
 .Title h1{
-    margin: 10rem 10rem 0;
+    margin: 10rem 1rem 0;
 }
 
-.Title h6{
+.Title h4{
     margin-bottom: 10rem;
 }
 
 .Page_1{
-    text-align: center;
+    background: url(../images/singapore_flag.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    padding: 1rem 0;
+    font-size: 100%;  
 }
+
+.Page_1 p{
+    margin: 10rem 1rem;
+}
+
+
+
+
+
