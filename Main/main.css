@@ -9,6 +9,7 @@ body{
 }
 
 .Title{
+    height: 100vh;
     background: url(../images/title_bg.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -20,11 +21,7 @@ body{
 }
 
 .Title h1{
-    margin: 15rem 1rem 0;
-}
-
-.Title h4{
-    margin-bottom: 15rem;
+    margin-top: 20vh;
 }
 
 #wrapper {
@@ -44,7 +41,7 @@ body{
     display: block;
     position: relative;
     padding-top: 79px;
-  text-align:center;
+    text-align:center;
 }
 .arrow-down {
     display: block;
