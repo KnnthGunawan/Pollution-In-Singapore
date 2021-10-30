@@ -76,7 +76,7 @@ body{
 }
 
 .Page_1{
-    background: url(../images/singapore_flag.png) no-repeat center center fixed; 
+    background: url(../images/bg_2.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -84,13 +84,21 @@ body{
     color: white;
     padding: 1rem 0;
     font-size: 100%;  
+    text-align: center;
+    color:whitesmoke;
 }
 
 .Page_1 p{
-    margin: 50rem 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 100vh 1vh;
 }
 
+.Page_1 span{
+    color: red
+}
 
-
-
-
+.Page_1 .number{
+    text-align: center;
+    font-size: 4rem;
+}
