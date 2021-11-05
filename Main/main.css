@@ -1,10 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
-body {
-    font-family: 'Montserrat', sans-serif;
+.fade-in {
+    animation: fadeIn linear 1s;
 }
 
-body{
+/*.fade-out {
+    animation: fadeOut linear 1s;
+}*/
+  
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@keyframes fadeOut {
+    0% {opacity:1;}
+    100% {opacity:0;}
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
 
@@ -40,7 +55,7 @@ body{
 #scroll-down {
     display: block;
     position: relative;
-    padding-top: 79px;
+    padding-top: 20vh;
     text-align:center;
 }
 .arrow-down {
@@ -66,9 +81,9 @@ body{
     transform: rotate(135deg);
 }
 #scroll-title {
-    display: block;
-    text-transform: uppercase;
-    color: white;
+  display: block;
+  text-transform: uppercase;
+  color: white;
   font-family: Helvetica Neue, Helvetica, Arial;
   font-size:14px;
   font-weight:bold;
@@ -85,20 +100,89 @@ body{
     padding: 1rem 0;
     font-size: 100%;  
     text-align: center;
-    color:whitesmoke;
+    color: white;
+    text-shadow: 2px 2px 2px black;
 }
 
 .Page_1 p{
     font-size: 2rem;
     font-weight: bold;
-    margin: 100vh 1vh;
+    margin: 100vh 0;
 }
 
 .Page_1 span{
-    color: red
+    text-decoration: underline;
+    color: red;
 }
 
 .Page_1 .number{
     text-align: center;
-    font-size: 4rem;
+    font-size: 3rem;
 }
+
+.Page_2{
+    margin: 2rem;
+    font-size: 100%;
+    text-align: center;
+}
+
+.Page_2 h3{
+    font-size: large;
+    margin-bottom: 2rem;
+}
+
+
+.button-24 {
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  margin: 2rem 0;
+}
+
+.button-24:hover, .button-24:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.button-24:active {
+  opacity: .5;
+}
+
+#info{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+#info_p2{
+    background-color: #FF4742;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    max-width: 75%;
+    min-width: 250px;
+    margin: 2rem auto;
+}
+
+
