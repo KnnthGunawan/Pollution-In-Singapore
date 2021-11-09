@@ -19,6 +19,8 @@ function choice_3() {
   document.getElementById("button_1").style.display = "none";
   document.getElementById("button_2").style.display = "none";
   document.getElementById("button_3").style.display = "inline";
-  document.getElementById("info").style.display = "block";
-  document.getElementById("info_p2").style.display = "block";
+  setTimeout(function(){
+    document.getElementById("info").style.display = "block";
+    document.getElementById("info_p2").style.display = "block";
+  }, 2000)
 }
