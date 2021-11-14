@@ -91,7 +91,7 @@ body {
     font-size: 100%;  
     text-align: center;
     padding: 50vh 10%;
-    margin: 10%;
+    margin: 10% 10% 0;
 }
 
 .Page_1 p{
@@ -111,9 +111,12 @@ body {
 
 .Page_2 h3{
     font-size: large;
-    margin-bottom: 2rem;
 }
 
+.choices a{
+    text-decoration: none;
+    color: white;
+}
 
 .button-24 {
   background: #FF4742;
@@ -121,7 +124,7 @@ body {
   border-radius: 6px;
   box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
   box-sizing: border-box;
-  color: #FFFFFF;
+  color: white;
   cursor: pointer;
   display: inline-block;
   font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
@@ -134,6 +137,7 @@ body {
   text-align: center;
   text-rendering: geometricprecision;
   text-transform: none;
+  text-decoration: none;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
@@ -144,25 +148,26 @@ body {
 .button-24:hover, .button-24:active {
   background-color: initial;
   background-position: 0 0;
-  color: #FF4742;
+  color: #FF4742; 
 }
 
 .button-24:active {
   opacity: .5;
 }
 
-#info{
-    font-size: 1.2rem;
-    margin-top: 1rem;
+#answers{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 16px;
 }
 
 #info_p2{
     color: #FF4742;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     font-weight: bold;
     padding: 0.5rem;
     border-radius: 0.5rem;
-    max-width: 75%;
+    max-width: 20%;
     min-width: 250px;
     margin: 2rem auto;
 }
@@ -178,3 +183,9 @@ body {
     transform: translateX(-3px);
 }
 
+#icon{
+    width: 35%;
+    max-width: 150px;
+    height: auto;
+    margin-top: -40px;
+}

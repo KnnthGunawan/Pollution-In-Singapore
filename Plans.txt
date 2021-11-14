@@ -2,3 +2,12 @@
     web page would be ideal and more efficient/user-friendly. Even if the visuals are not as impressive as theirs, I think a website that you can scroll 
     down instead of constantly opening new pages would definitely be nicer.  23/10/2021
     a) An issue I faced previously is finding a way to put two/multiple (canvas) graphs in a single page. Making them appear properly and on demand never worked properly. 
+
+
+
+
+Icon Attribution Text (In Order):
+
+Marina Bay Sands by Brand Mania from the Noun Project
+
+
