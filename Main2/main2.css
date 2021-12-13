@@ -1,0 +1,36 @@
+.Page_3{
+    padding: 0 3rem;
+}
+
+
+.Page_4{
+    background-color: #FF4742;
+    color: white;
+    padding: 0 10%;
+}
+
+.Page_4 h2{
+    padding: 3rem 0;
+}
+.Page_4 p{
+    padding-top: 1rem;
+    display: inline;
+}
+.Page_4 .left{
+    padding-right: 40%;
+    float: left;
+    text-align: right;
+}
+.Page_4 .right{
+    padding-left: 40%;
+    float: right;
+    text-align: left;
+}
+.Page_4 a{
+    color: white;
+}
+.Page_4 #icon{
+    width: 15%;
+    display: block;
+    margin: 0 auto;
+}
