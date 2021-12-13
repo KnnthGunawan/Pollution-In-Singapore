@@ -13,7 +13,7 @@
     </style>
 </head>
 <body>
-    <section class="Title">
+    <section class="Title parallax">
         <h1>Singapore's Pollution Problem</h1>
         <h4>And How You Can Help</h4>
         <div id="wrapper">
@@ -37,27 +37,25 @@
     <section class="Page_2">
         <h3>How much C02 did Singapore produce in 2020 (in million tonnes)?</h3>
         <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-        <div id="chart_div"></div>
+        <div id="chart_div" class="chart_div"></div>
         <div class="choices">
             <a href="#answers"><button class="button-24 fade-out" role="button" onclick="choice_1()" id="button_1">185</button></a>
             <a href="#answers"><button class="button-24 fade-out" role="button" onclick="choice_2()" id="button_2">127</button></a>
             <a href="#answers"><button class="button-24 fade-out" role="button" onclick="choice_3()" id="button_3">211</button></a>
         </div>
-        <div id="answers">
+        <div class="parallax__layer parallax__layer--back" id="answers">
             <p class="fade-in" style="display: none;" id="1">Not quite. The last time Singapore was at 185 million tonnes was in 2010.</p>
             <p class="fade-in" style="display: none;" id="2">Close, but Singapore was at 127 million tonnes in 2005.</p>
             <p class="fade-in" style="display: none;" id="info" style="font-size: 16px;">That's right! Singapore produced <span style="color: #FF4742; font-weight: bold;"> 211,000,000</span> tonnes of C02 from fossil fuels in 2020! That's about 30 million elephants, or 7 million Statue of Liberties, or 33 thousand Marina Bay Sands, or...</p>
-            <p class="fade-in" style="display: none;" id="info_p2">You get the idea. It's a lot.</p>
+            <p class="fade-in" style="display: none;" id="info_p2">You get the idea. <br> It's a lot.</p>
             <p class="fade-in" style="display: none;" id="info_p3">Over the last 50 years, C02 emissions from fossil-fuels of Singapore grew substainially from 21 to 211 million tonnes.</p>
+            <img class="fade-in icon" style="display: none" src="Images/noun_Marina Bay Sands_1017625.png" alt="Marina Bay Sands Icon" id="icon">
         </div>
     </section>
-    <section id="reveal" style="display: none;">
-        <img src="Images/noun_Marina Bay Sands_1017625.png" alt="Marina Bay Sands Icon" id="icon">
-        <hr>
+    <section class="section" id="reveal" style="display: none;">
         <div class="transition">
-            <p>That's a lot of emissions, but where does it come from?</p>
+            <h1>That's a lot of emissions, but where does it come from?</h1>
         </div>
-        <hr>
         <div class="Page_3">
             <div>[Pie Chart]</div>
             <div>

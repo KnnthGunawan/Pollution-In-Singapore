@@ -20,8 +20,9 @@ function choice_3() {
   setTimeout(function(){
     document.getElementById("info_p2").style.display = "block";
     document.getElementById("info_p3").style.display = "block";
+    document.getElementById("icon").style.display = "block";
     document.getElementById("reveal").style.display = "block";
-  }, 2000)
+  }, 1800)
 }
 
 google.charts.load('current', {packages: ['corechart', 'line']});
@@ -41,7 +42,8 @@ function drawBasic() {
       ]);
 
       var options = {
-        'width': 350, 'height': 200,
+        //'width': 350, 
+        //'height': 200, 
         hAxis: {
           title: 'Year'
         },
