@@ -146,6 +146,7 @@ body {
 }
 
 .chart_div{
+    display: inline-block;
     margin: 0 auto;
 }
 
@@ -174,7 +175,7 @@ body {
     border-radius: 0.5rem;
     max-width: 20%;
     min-width: 250px;
-    margin: 0 auto 2rem;
+    margin: 2rem auto 2rem;
 }
 
 .icon{

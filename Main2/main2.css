@@ -1,6 +1,13 @@
 .Page_3{
     padding: 0 3rem;
 }
+.Page_3 h3{
+    margin-top: 2rem;
+}
+#piechart{
+    display: inline-block;
+    margin: 0 auto;
+}
 
 
 .Page_4{
@@ -13,7 +20,7 @@
     padding: 3rem 0;
 }
 .Page_4 p{
-    padding-top: 1rem;
+    padding: 2rem 0;
     display: inline;
 }
 .Page_4 .left{
@@ -34,3 +41,10 @@
     display: block;
     margin: 0 auto;
 }
+.Page_4 #arrow{
+    margin: 0 auto;
+    padding: 1rem 0;
+    width: 25px;
+    display: block;
+}
+
