@@ -31,7 +31,7 @@ google.charts.setOnLoadCallback(drawBasic);
 function drawBasic() {
 
       var data = new google.visualization.DataTable();
-      data.addColumn('number', 'X');
+      data.addColumn('number', 'x');
       data.addColumn('number', 'C02 Emissions');
 
       data.addRows([
@@ -42,17 +42,17 @@ function drawBasic() {
       ]);
 
       var options = {
-        //'width': 350, 
-        //'height': 200, 
         hAxis: {
-          title: 'Year'
+          title: 'Year',
+          format: '',
         },
         vAxis: {
           title: 'C02 Emissions (Million Tonnes)'
         },
         legend: {
           position: 'none'
-        }
+        },
+        colors: ['#FF4742'],
       };
 
       var chart = new google.visualization.LineChart(document.getElementById('chart_div'));

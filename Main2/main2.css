@@ -36,7 +36,7 @@
 .Page_4 a{
     color: white;
 }
-.Page_4 #icon{
+#icon{
     width: 15%;
     display: block;
     margin: 0 auto;
@@ -48,3 +48,32 @@
     display: block;
 }
 
+.transition_2{
+    background-image: url(/Images/max-oh-6LPoSHeTVws-unsplash.jpg); 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    object-fit: cover;
+    color: white;
+    padding: 25vh 2rem;
+}
+
+.Page_5{
+    background-color: #FF4742;
+    color: white;
+    padding: 0 10%;
+}
+.Page_5 #top{
+    padding-top: 3rem;
+}
+.Page_5 h3{
+    padding: 1rem 0;
+}
+.Page_5 p{
+    padding: 2rem 0 1rem;
+}

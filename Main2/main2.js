@@ -5,8 +5,8 @@ function drawChart() {
 
   var data = google.visualization.arrayToDataTable([
     ['Primary Emission', 'Percentage'],
-    ['Power', 38.9],
-    ['Industry', 46.7],
+    ['Power', 39],
+    ['Industry', 46.8],
     ['Transport', 12.4],
     ['Others', 1.8]
   ]);
