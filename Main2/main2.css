@@ -1,3 +1,7 @@
+html,body{
+    overflow-x: hidden;
+}
+
 .Page_3{
     padding: 0 3rem;
 }
