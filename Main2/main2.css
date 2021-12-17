@@ -10,9 +10,10 @@ overflow-x: hidden;
 .Page_3 h3{
     margin-top: 2rem;
 }
-#piechart{
+.piechart{
     display: inline-block;
     margin: 0 auto;
+    max-width: 250px;
 }
 
 

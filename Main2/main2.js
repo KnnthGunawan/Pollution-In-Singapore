@@ -14,10 +14,19 @@ function drawChart() {
   var options = {
     titlePosition: "none",
     legend: {position: 'labeled'},
-    pieSliceText: "none"
+    pieSliceText: "none",
+    chartArea: {left: 0, right: 0}
+
   };
 
   var chart = new google.visualization.PieChart(document.getElementById('piechart'));
 
   chart.draw(data, options);
+}
+
+window.onresize = doALoadOfStuff;
+
+function doALoadOfStuff() {
+  drawBasic();
+  drawChart();
 }

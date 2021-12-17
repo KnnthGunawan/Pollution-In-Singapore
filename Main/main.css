@@ -154,6 +154,9 @@ body {
 .chart_div{
     display: inline-block;
     margin: 0 auto;
+    width: 100%;
+    height: auto;
+    max-width: 1000px;
 }
 
 .button-24:hover, .button-24:active {
@@ -180,12 +183,13 @@ body {
     padding: 0.5rem;
     border-radius: 0.5rem;
     max-width: 20%;
-    min-width: 250px;
-    margin: 2rem auto 2rem;
+    min-width: 200px;
+    margin: 2rem auto;
 }
 
 .icon{
     width: 35%;
+    min-width: 50px;
     max-width: 150px;
     height: auto;
     margin: -25px auto 0;

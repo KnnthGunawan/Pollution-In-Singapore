@@ -59,3 +59,10 @@ function drawBasic() {
 
       chart.draw(data, options);
     }
+
+window.onresize = doALoadOfStuff;
+
+function doALoadOfStuff() {
+  drawBasic();
+  drawChart();
+}
