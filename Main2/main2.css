@@ -4,18 +4,16 @@ width: 100%;
 overflow-x: hidden;
 }
 
-.Page_3{
+#padding{
     padding: 0 3rem;
 }
 .Page_3 h3{
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 .piechart{
     display: inline-block;
     margin: 0 auto;
-    max-width: 250px;
 }
-
 
 .Page_4{
     background-color: #FF4742;
@@ -44,7 +42,8 @@ overflow-x: hidden;
     color: white;
 }
 #icon{
-    width: 15%;
+    width: 85px;
+    height: 85px;
     display: block;
     margin: 0 auto;
 }

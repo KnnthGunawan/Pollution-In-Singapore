@@ -22,7 +22,7 @@ function choice_3() {
     document.getElementById("info_p3").style.display = "block";
     document.getElementById("icon").style.display = "block";
     document.getElementById("reveal").style.display = "block";
-  }, 1800)
+  }, 0) //1800
 }
 
 google.charts.load('current', {packages: ['corechart', 'line']});

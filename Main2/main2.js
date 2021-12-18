@@ -15,7 +15,8 @@ function drawChart() {
     titlePosition: "none",
     legend: {position: 'labeled'},
     pieSliceText: "none",
-    chartArea: {left: 0, right: 0}
+    chartArea: {left: 0, right: 0},
+    width: '250'
 
   };
 
