@@ -5,8 +5,7 @@ overflow-x: hidden;
 }
 
 body .img{
-    max-width: 100%;
-    height: auto;
+    min-height: 100%;
 }
 
 .fade-in {
