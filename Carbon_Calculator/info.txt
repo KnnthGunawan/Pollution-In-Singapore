@@ -1,0 +1,35 @@
+flight	    I don't fly, or I carbon offset my flight	0
+flight	    Fly a few times in S.E. Asia	1
+flight	    A few flights within S.E. Asia + one yearly long distance flight	2.5
+flight	    A few flights within S.E. Asia + a few long distance flights per year	5
+flight	    I fly short distance monthly and/or have several long distance flights per year and/or fly first class or business class	10
+diet	    I'm vegan / plant-based, and grow almost all of my own food	0
+diet	    I'm vegan / plant-based	1
+diet	    I'm vegetarian / eat seafood only	1.5
+diet	    I eat little meat / eat white meat only	2
+diet	    I eat all types of meat daily	2.5
+home	    My home is solar powered	0
+home	    1-5 Room HDB Flat	0.5
+home	    Executive HDB Flat or Condo	1
+home	    Terrace home	1.25
+home	    Semi-detached home	1.5
+home	    I live in a bungalow	3
+personal	My home is solar powered, or I don't use air-con & large electronics often	0
+personal	Often use air-con & large electronics	0.5
+transit	    I walk and cycle everywhere / use carbon neutral fuels	0
+transit	    I use public transport	0.5
+transit	    I drive with multiple passengers	1
+transit	    I drive with 1 passenger	2
+transit	    I drive alone	3.5
+shopping	Use only second-hand things I need	0
+shopping	Minimalist, reuse, repair, recycle	0.5
+shopping	Go shopping sometimes, prefer local, recycle all I can	1.5
+shopping	Go shopping sometimes, no preference on goods origin, recycle a little bit	2.5
+shopping	Go shopping often, prefer less packaging, no preference on goods origin, recycle all I can	3.5
+shopping	Go shopping often, prefer nice packaging, prefer international goods, don't recycle	9.5
+finances	I don't have a bank account / I don't invest / I only do carbon neutral investing	0
+finances	Standard banking / investmt service	0.5
+recreation	I only do outdoor physical activities that are carbon neutral	0
+recreation	Sometimes go out to bar, movies, resto	1
+recreation	Often go out to bar, movies, restaurants	1.5
+recreation	I like carbon intensive activities (motorbiking, motorboating, ...)	2

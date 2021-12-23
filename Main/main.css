@@ -8,6 +8,10 @@ body .img{
     min-height: 100%;
 }
 
+body{
+    text-size-adjust: 80%;
+}
+
 .fade-in {
     animation: fadeIn linear 1s;
 }
@@ -200,7 +204,7 @@ body {
 }
 
 .transition{
-    background-image: url(/Images/peter-nguyen-CQhgno3yhv8-unsplash.jpg); 
+    background-image: url(../Images/peter-nguyen-CQhgno3yhv8-unsplash.jpg); 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;

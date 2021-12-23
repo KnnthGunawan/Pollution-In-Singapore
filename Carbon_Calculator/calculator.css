@@ -1,0 +1,13 @@
+.container{
+    background-color: #FF4742;
+}
+
+.wrapper{
+    margin: 3rem;
+    background-color: white;
+}
+
+.wrapper #clickMe{
+    margin: 2rem auto;
+    display: block;
+}
