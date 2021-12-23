@@ -72,10 +72,7 @@ overflow-x: hidden;
 .Page_5{
     background-color: #FF4742;
     color: white;
-    padding: 0 10%;
-}
-.Page_5 #top{
-    padding-top: 3rem;
+    padding: 10%;
 }
 .Page_5 h3{
     padding: 1rem 0;

@@ -1,13 +1,83 @@
-.container{
-    background-color: #FF4742;
+
+
+.section2{
+    background: url(../images/coleen-rivas-OZ2rS2zCjNo-unsplash.jpg) no-repeat left center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    object-fit: cover;
+    padding: 2rem;
+    text-align: center;
 }
 
 .wrapper{
-    margin: 3rem;
-    background-color: white;
+    text-align: left;
+    padding: 1.5rem 2rem;
+    background-color: white;   
+    font-size: 80%;
+    
 }
 
-.wrapper #clickMe{
-    margin: 2rem auto;
+
+
+
+
+.wrapper .calculate{
+    margin: 2rem 0 1.5rem 0;
     display: block;
+}
+
+.wrapper .reset{
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.wrapper h2{
+    margin: 2rem 0 1rem 0;
+}
+
+.wrapper .answer{
+    margin: 2rem 0;
+    font-size: 3rem;
+}
+
+.wrapper .review{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.button{
+    background: #FF4742;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+}
+
+.button:hover, .button:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #FF4742; 
+}
+  
+.button:active {
+    opacity: .5;
 }

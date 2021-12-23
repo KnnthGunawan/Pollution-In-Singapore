@@ -22,7 +22,8 @@ function choice_3() {
     document.getElementById("info_p3").style.display = "block";
     document.getElementById("icon").style.display = "block";
     document.getElementById("reveal").style.display = "block";
-  }, 0) //1800
+    document.getElementById("reveal_2").style.display = "block";
+  }, 0)
 }
 
 google.charts.load('current', {packages: ['corechart', 'line']});
