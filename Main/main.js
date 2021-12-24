@@ -23,6 +23,7 @@ function choice_3() {
     document.getElementById("icon").style.display = "block";
     document.getElementById("reveal").style.display = "block";
     document.getElementById("reveal_2").style.display = "block";
+    document.getElementById("reveal_3").style.display = "block";
   }, 0)
 }
 

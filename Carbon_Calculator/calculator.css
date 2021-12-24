@@ -1,4 +1,21 @@
+.transition_3{
+    background: url(../images/touann-gatouillat-vergos-nJGIkv_mdBg-unsplash.jpg) no-repeat left center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    object-fit: cover;
+    color: white;
+    font-size: 100%;  
+    text-align: center;
+    padding: 50vh 10%;
+    margin: 3rem 10%;
+}
 
+.transition_3 .ps{
+    margin-top: 0.5rem;
+    font-size: 80%;
+}
 
 .section2{
     background: url(../images/coleen-rivas-OZ2rS2zCjNo-unsplash.jpg) no-repeat left center fixed; 
@@ -7,7 +24,7 @@
     -o-background-size: cover;
     background-size: cover;
     object-fit: cover;
-    padding: 2rem;
+    padding: 3rem 10%;
     text-align: center;
 }
 
@@ -18,10 +35,6 @@
     font-size: 80%;
     
 }
-
-
-
-
 
 .wrapper .calculate{
     margin: 2rem 0 1.5rem 0;

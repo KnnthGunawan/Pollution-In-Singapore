@@ -20,13 +20,13 @@ function tabulateAnswers() {
   document.getElementById('answer').innerHTML = score
   
   // Display answer corresponding to that choice
-  if (score < 8) {
+  if (score < 9) {
     document.getElementById('review').innerHTML = "Great! Your carbon footprint is below average!"
   }
-  else if (score < 10) {
+  else if (score < 11) {
     document.getElementById('review').innerHTML = "Not Bad! Your carbon footprint is close average!"
   }
-  else if (score < 15) { 
+  else if (score < 16) { 
     document.getElementById('review').innerHTML = "Uh Oh! Your carbon footprint is above average!"
   }
   else{ 
