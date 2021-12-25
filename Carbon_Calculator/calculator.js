@@ -17,20 +17,20 @@ function tabulateAnswers() {
   }
 
   
-  document.getElementById('answer').innerHTML = score
+  document.getElementById('answer').innerHTML = score + " tonnes of CO<sub>2</sub> per year."
   
   // Display answer corresponding to that choice
   if (score < 9) {
-    document.getElementById('review').innerHTML = "Great! Your carbon footprint is below average!"
+    document.getElementById('review').innerHTML = "Great! Your carbon footprint is below average (9 tonnes)!"
   }
   else if (score < 11) {
-    document.getElementById('review').innerHTML = "Not Bad! Your carbon footprint is close average!"
+    document.getElementById('review').innerHTML = "Not Bad! Your carbon footprint is close average (9 tonnes)!"
   }
   else if (score < 16) { 
-    document.getElementById('review').innerHTML = "Uh Oh! Your carbon footprint is above average!"
+    document.getElementById('review').innerHTML = "Uh Oh! Your carbon footprint is above average (9 tonnes)!"
   }
   else{ 
-    document.getElementById('review').innerHTML = "Oh No! Your carbon footprint is way above average!"
+    document.getElementById('review').innerHTML = "Oh No! Your carbon footprint is way above average (9 tonnes)!"
   }
 }
 
