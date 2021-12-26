@@ -26,18 +26,28 @@ overflow-x: hidden;
 }
 .Page_4 p{
     padding: 2rem 0;
-    display: inline;
 }
-.Page_4 .left{
-    padding-right: 40%;
-    float: left;
-    text-align: right;
+
+@media only screen and (min-width: 1500px) {
+    .Page_4 p{  
+        max-width: 800px;
+        margin: 0 auto;
+    }
 }
-.Page_4 .right{
-    padding-left: 40%;
-    float: right;
-    text-align: left;
+
+@media only screen and (max-width: 1500px) {
+    .Page_4 .left{
+        padding-right: 40%;
+        float: left;
+        text-align: right;
+    }
+    .Page_4 .right{
+        padding-left: 40%;
+        float: right;
+        text-align: left;
+    }
 }
+
 .Page_4 a{
     color: white;
 }
@@ -67,24 +77,26 @@ overflow-x: hidden;
     object-fit: cover;
     color: white;
     padding: 25vh 2rem;
+    
 }
 
 .Page_5{
     background-color: #FF4742;
     color: white;
-    padding: 10%;
+    padding: 1rem 10%;
 }
 .Page_5 h3{
     padding: 1rem 0;
 }
 .Page_5 p{
     padding: 2rem 0 1rem;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .section3{
-    padding: 1rem 3rem;
+    padding: 1rem 10%;
 }
-
 .section3 .closing p{
     margin: 1.5rem;
 }
@@ -93,3 +105,11 @@ overflow-x: hidden;
     margin-top: 1.5rem;
 }
 
+.section3 .closing a{
+    display: inline-block;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+    padding-right: 0.5rem;
+    color: black;
+    font-size: 80%;
+}
