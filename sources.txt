@@ -1,0 +1,116 @@
+This file contains all the sources used in the project.
+
+
+Informationa================================================================================================================
+
+Page 1
+
+"..subtatially high CO2 Emissions Per Capita: 9.45 tons."
+https://knoema.com/atlas/Singapore/topics/Environment/CO2-Emissions-from-Fossil-fuel/CO2-emissions-per-capita
+
+"Singapore has the 27th highsest CO2 Emissions Per Capita based on the latest IEA data.",
+https://www.nccs.gov.sg/singapores-climate-action/singapore-emissions-profile/
+
+
+
+Page 2
+
+[Singapore's CO2 Emissions Profile Line Graph Data]
+https://knoema.com/atlas/Singapore/topics/Environment/CO2-Emissions-from-Fossil-fuel/CO2-emissions-from-fossil-fuels
+
+"Over the last 50 years, Singapore's CO2 emissions grew subtatially from 21 to 211 million tonnes."
+https://knoema.com/atlas/Singapore/topics/Environment/CO2-Emissions-from-Fossil-fuel/CO2-emissions-from-fossil-fuels
+
+
+
+Page 3
+
+[Singapore's Emissions Profile (2018) Pie Chart Data]
+https://www.nccs.gov.sg/singapores-climate-action/singapore-emissions-profile/
+
+"As of 2020, Singapore contributes 0.13% of global emissions."
+https://ourworldindata.org/co2/country/singapore
+
+
+
+Page 4
+
+"The term [Carbon Footprint] was popularized by a $250 million advertising campaign by the oil and gas company BP..."
+https://sea.mashable.com/science/11514/the-carbon-footprint-sham
+https://www.thecapture.club/post/the-term-carbon-footprint
+
+"...not enough to counter BP's 1.99 million barrels of oil produced per day (2020)."
+https://www.statista.com/statistics/270013/daily-regional-production-of-bp/#:~:text=BP%20produced%201.99%20million%20barrels,375%2C000%20barrels%20of%20daily%20output.
+
+
+
+Page 5
+
+"Fact: A car carrying only the driver uses 9 times the energy used by a bus, and 12 times that used by a train on a per passenger-kilometre travelled basis!"
+https://www.e2singapore.gov.sg/overview/transport
+
+"Fact: Out of the 7.23 million tonnes of solid waste generated in 2019 in Singapore, more than 40% of it was incinerated!"
+https://www.eco-business.com/opinion/five-facts-about-unsustainable-waste-management-in-singapore/#:~:text=Most%20of%20Singapore's%20trash%20is,40%20per%20cent%20was%20incinerated.&text=In%20addition%2C%20waste%2Dto%2D,cent%20of%20Singapore's%20electricity%20needs.
+
+"Fact: Researchers have also found that cutting meat and dairy products from your diet could reduce an individual's carbon footprint by up to 73%!"
+https://www.quorn.sg/news/simple-swaps-to-lower-your-carbon-footprint#:~:text=Researchers%20have%20also%20found%20that,of%20agriculture's%20greenhouse%20gas%20emissions.
+
+
+
+Carbon Calculator Calculations:
+
+Caategory / Choice Value / (Tonnes of CO2)
+
+flight	    I don't fly, or I carbon offset my flight	0
+flight	    Fly a few times in S.E. Asia	1
+flight	    A few flights within S.E. Asia + one yearly long distance flight	2.5
+flight	    A few flights within S.E. Asia + a few long distance flights per year	5
+flight	    I fly short distance monthly and/or have several long distance flights per year and/or fly first class or business class	10
+diet	    I'm vegan / plant-based, and grow almost all of my own food	0
+diet	    I'm vegan / plant-based	1
+diet	    I'm vegetarian / eat seafood only	1.5
+diet	    I eat little meat / eat white meat only	2
+diet	    I eat all types of meat daily	2.5
+home	    My home is solar powered	0
+home	    1-5 Room HDB Flat	0.5
+home	    Executive HDB Flat or Condo	1
+home	    Terrace home	1.25
+home	    Semi-detached home	1.5
+home	    I live in a bungalow	3
+personal	My home is solar powered, or I don't use air-con & large electronics often	0
+personal	Often use air-con & large electronics	0.5
+transit	    I walk and cycle everywhere / use carbon neutral fuels	0
+transit	    I use public transport	0.5
+transit	    I drive with multiple passengers	1
+transit	    I drive with 1 passenger	2
+transit	    I drive alone	3.5
+shopping	Use only second-hand things I need	0
+shopping	Minimalist, reuse, repair, recycle	0.5
+shopping	Go shopping sometimes, prefer local, recycle all I can	1.5
+shopping	Go shopping sometimes, no preference on goods origin, recycle a little bit	2.5
+shopping	Go shopping often, prefer less packaging, no preference on goods origin, recycle all I can	3.5
+shopping	Go shopping often, prefer nice packaging, prefer international goods, don't recycle	9.5
+finances	I don't have a bank account / I don't invest / I only do carbon neutral investing	0
+finances	Standard banking / investmt service	0.5
+recreation	I only do outdoor physical activities that are carbon neutral	0
+recreation	Sometimes go out to bar, movies, resto	1
+recreation	Often go out to bar, movies, restaurants	1.5
+recreation	I like carbon intensive activities (motorbiking, motorboating, ...)	2
+
+Inspiration from https://whatismycarbonfootprint.com/sg/#/
+GitHub Page: https://github.com/ryanphung/carbon-estimator
+Full Data (Public): https://docs.google.com/spreadsheets/d/1QC1qEfeDZdGcd0d5Bv7WQSwonSQvnjSDmxN2BrZOFOE/edit
+
+
+Images================================================================================================================
+
+[In Order]
+
+1. Gardens By The Bay:
+2. https://unsplash.com/@zhuzhutrain?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+3. https://unsplash.com/@peterng1618?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+4. https://unsplash.com/@maxoh?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+5. https://unsplash.com/@touann?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+6. https://unsplash.com/@coleenr?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+
+Icons================================================================================================================
