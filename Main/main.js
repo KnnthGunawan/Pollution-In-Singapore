@@ -50,7 +50,7 @@ function drawBasic() {
           format: '',
         },
         vAxis: {
-          title: 'C02 Emissions (Million Tonnes)'
+          title: 'CO2 Emissions ( Million Tonnes )'
         },
         legend: {
           position: 'none'

@@ -26,7 +26,7 @@ function tabulateAnswers() {
   else if (score < 11) {
     document.getElementById('review').innerHTML = "Not Bad! Your carbon footprint is close average (9 tonnes)!"
   }
-  else if (score < 16) { 
+  else if (score < 15) { 
     document.getElementById('review').innerHTML = "Uh Oh! Your carbon footprint is above average (9 tonnes)!"
   }
   else{ 
