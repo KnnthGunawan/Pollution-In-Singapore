@@ -1,4 +1,5 @@
-This file contains all the sources used in the project.
+
+!! This file contains all the sources used in the project. !!
 
 
 Informationa================================================================================================================
@@ -126,3 +127,4 @@ Icons===========================================================================
 6. Bicycle by Adrien Coquet from NounProject.com
 7. Recycle by Yoyon Pujiyono from NounProject.com
 8. Meat by Yorlmar Campos from NounProject.com
+
