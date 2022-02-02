@@ -177,7 +177,7 @@ img{
 }
 
 .icon{
-    width: 35%;
+    width: 100%;
     min-width: 50px;
     max-width: 150px;
     height: auto;

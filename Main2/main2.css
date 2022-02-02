@@ -48,12 +48,24 @@ overflow-x: hidden;
     }
 }
 
+@media only screen and (max-width: 790px){
+    .Page_4 .left{
+        padding-right: 1rem;
+        float: left;
+        text-align: center;
+    }
+    .Page_4 .right{
+        padding-left: 1rem;
+        float: right;
+        text-align: center;
+    }
+}
+
 .Page_4 a{
     color: white;
 }
-#icon{
-    width: 85px;
-    height: 85px;
+.Page_4 .Page_5 #icon{
+    width: 100px;
     display: block;
     margin: 0 auto;
 }
